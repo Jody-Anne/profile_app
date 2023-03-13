@@ -7,8 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "build-serverless": "next build && next export && mv out/ /tmp/ && mv /tmp/out/ out/ --force",
-    "now-build":"next build"
+    "build-serverless": "next build && next export && mv out/ /tmp/ && mv /tmp/out/ out/ --force"
   },
   "build": {
     "target": "serverless"
