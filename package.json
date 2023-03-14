@@ -4,12 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
     "build": "next build",
     "start": "next start"
-  },
-  "build": {
-    "target": "serverless"
   },
   "author": "",
   "license": "ISC",
@@ -17,6 +15,6 @@
     "next": "^13.1.6",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.0",
-    "react-dom": "^18.0.0"
+    "reactdom": "^2.0.0"
   }
 }
